@@ -160,3 +160,8 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+button:disabled {
+    filter: grayscale(100%); 
+    opacity: 0.5; 
+}
